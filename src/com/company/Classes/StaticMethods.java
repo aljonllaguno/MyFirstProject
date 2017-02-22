@@ -63,17 +63,12 @@ public class StaticMethods {
     }
 
 
-    public static void factorial(int num){
+    public static void factorial(int n){
+       int fac=1;
+        for (; n>=1; n--) {
+           fac *=n;
 
-         int [] bobonachi = new int [7];
-
-        for (int a=1; a<=num; a++) {
-
-            int temp=num-1;
-            int fac=temp*num;
-
-
-            System.out.print(fac + " ");
         }
+        System.out.print(fac + " ");
     }
 }
