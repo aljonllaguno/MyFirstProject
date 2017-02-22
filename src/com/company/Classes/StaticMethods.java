@@ -66,8 +66,7 @@ public class StaticMethods {
     public static void factorial(int n){
        int fac=1;
         for (; n>=1; n--) {
-           fac *=n;
-
+            fac *= n;
         }
         System.out.print(fac + " ");
     }
