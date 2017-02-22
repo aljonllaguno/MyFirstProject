@@ -68,6 +68,7 @@ public class StaticMethods {
         for (; n>=1; n--) {
             fac *= n;
         }
+        
         System.out.print(fac + " ");
     }
 }
